@@ -31,6 +31,9 @@
 .toggle-btn{
     display: none;
 }
+.navbar-items p:active{
+    background-color: beige;
+}
 @media (max-width:768px){
     .navbar-items{
         display: none;

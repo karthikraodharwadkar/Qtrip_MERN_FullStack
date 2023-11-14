@@ -2,6 +2,6 @@
     text-decoration: none;
     color: black;
 }
-.toggle-btn{
-    cursor: pointer;
+.toggle-btn p:active{
+    background-color: white;
 }

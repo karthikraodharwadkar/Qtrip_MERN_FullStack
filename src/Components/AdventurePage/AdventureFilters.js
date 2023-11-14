@@ -20,7 +20,7 @@ export default function AdventureFilters({categoryFilter,handleCategoryFilter,se
             <select value={categoryFilter} onChange={handleCategoryFilter}>
                 {categories.map((item,index)=>{
                     return(
-                    <option key={index} value={index===0 ? "" : `${item}`} >{item}</option>
+                    <option key={index} value={index===0 ? "" : `${item}`} disabled={index===0 ? true : false}>{item}</option>
                     )
                 })}
             </select>
@@ -29,7 +29,7 @@ export default function AdventureFilters({categoryFilter,handleCategoryFilter,se
             <select value={hourFilter} onChange={handleHourFilter}>
                 {hours.map((item,index)=>{
                     return(
-                    <option key={index} value={index===0 ? "" : `${item}`} >{item}</option>
+                    <option key={index} value={index===0 ? "" : `${item}`}>{item}</option>
                     )
                 })}
             </select>

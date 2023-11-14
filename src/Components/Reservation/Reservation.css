@@ -29,8 +29,8 @@ thead{
 .reservation-banner{
     color: #141619;
     background-color: #d3d3d4;
-    width: 80vw;
-    margin:10px auto;
+    width: 150vw;
+    margin:10px 0px 10px 35px;
     padding:5px;
     border-radius: 5px;
 }
@@ -63,6 +63,6 @@ thead{
         width: 160vw; 
     }
     .reservation-navbar,.reservation-footer{
-        width: 180vw;
+        width: 170vw;
     }
 }
