@@ -1,0 +1,39 @@
+.adventurecard-main-container{
+    width:90vw;
+    margin:10px auto;
+
+}
+.section-1,.section-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 10px;
+    height: 40px;
+    font-size: 18px;
+}
+.adventure-card{
+    width: 300px;
+    border:1px solid black;
+    border-radius: 16px;
+    height:400px ;
+    position: relative;
+    cursor: pointer;
+}
+.adventure-category{
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid orange;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange
+    
+}
+.adventure-img{
+    height: 300px;
+    object-fit: cover;
+}

@@ -1,0 +1,85 @@
+.detailPage-container{
+    width:80vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.detailPage-leftsection{
+    flex: 70%;
+    border:1px solid whitesmoke;
+    padding: 15px;
+}
+.detailPage-rightsection{
+    flex: 30%;
+    border:1px solid whitesmoke;
+    padding: 15px;
+    height: max-content;
+    position: sticky;
+    top:90px;
+}
+.detailPage-title{
+    opacity: 0.6;
+}
+.detailpage-img{
+    width: 100%;
+}
+.detailPage-description{
+    text-align: left;
+}
+label{
+    display: block;
+}
+input{
+    width: 100%;
+    height:30px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin: 10px 0px;
+}
+.formData-totalsection{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form-btn{
+    background-color: orange;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.formData{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.detailPage-navbar{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.explore{
+    color: orange;
+    cursor: pointer;
+}
+.confirmation-banner{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    width: 80vw;
+    margin:10px auto;
+    padding:5px;
+    border-radius: 5px;
+}
+.confirmation-banner-span{
+    font-weight: 700;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .detailPage-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

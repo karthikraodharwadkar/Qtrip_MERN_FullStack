@@ -1,0 +1,65 @@
+.adventure-header, .adventure-filter{
+    width:90vw;
+    margin:0px auto;
+    font-size: 18px;
+}
+.filter-container{
+    display: flex;
+    gap:5px;
+}
+select{
+    border-radius: 20px;
+    padding: 5px;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.filter-pills{
+    display: inline-block;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin:10px 
+
+}
+.filter-pills-btn{
+    padding-left: 10px;
+}
+.adventure-navbar{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.adventure-container{
+    position: sticky;
+    top:70px;
+    z-index: 1;
+    background-color: white;
+}
+
+@media (max-width:768px){
+    .filter-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .adventure-container{
+        position: sticky;
+        top:45px;
+        z-index: 1;
+        background-color: white;
+    }
+    button{
+        font-size: 12px;
+        padding: 5px;
+    }
+}

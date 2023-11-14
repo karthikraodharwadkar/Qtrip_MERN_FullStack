@@ -1,0 +1,37 @@
+.citycard-main-container{
+    width: 80vw;
+    margin: 10px auto 0px auto;
+}
+img{
+    width: 300px;
+    height:400px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    object-fit: cover;
+   
+}
+img:hover{
+    filter: brightness(50%);
+    transform: scale(1.01);
+}
+.city-details{
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    color: white;
+    text-transform: uppercase;
+}
+.city-card{
+    width: 310px;
+    height:410px;
+    cursor: pointer;
+}
+.empty-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin:10px auto;
+}

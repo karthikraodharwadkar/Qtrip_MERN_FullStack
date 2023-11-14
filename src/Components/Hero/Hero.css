@@ -1,0 +1,21 @@
+.hero-main-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.searchBar{
+    width: 50vw;
+    margin:5px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.hero-text{
+    color: white;
+    text-align: center;
+}

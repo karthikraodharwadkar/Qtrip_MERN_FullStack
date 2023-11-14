@@ -1,0 +1,11 @@
+.footer-main-container{
+    background-color:  #f8f9fa;
+    margin:0px auto 0px auto;
+}
+.footer-container{
+    width: 90vw;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
