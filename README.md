@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Qtrip Backend
+
+refer MERN_qtrip-backend for the backend reference
+
 ### `npm start`
 
 Runs the app in the development mode.\
